@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1 style="text-align: center;">CALCULADORA</h1>
+        <form>
+            <fieldset>
+                <legend>CALCULADORA VIRTUAL:</legend>
+    
+                <label for="numUno">Número uno:</label><br/>
+                <input type="text" id="numUno" name="numUno" 
+                    placeholder="Escriba el número uno" required="true"/><br/>
+    
+                <br/>
+    
+                <label for="numDos">Número dos:</label><br/>
+                <input type="text" id="numDos" name="numDos"
+                    placeholder="Escriba el número dos" required="true"/><br/>
+    
+                <br/>
+    
+                <button id="suma" type="button">+</button>
+                <button id="resta" type="button">-</button>
+                <button id="multiplicacion" type="button">*</button>
+                <button id="division" type="button">/</button>
+    
+                <br/>
+                <br/>
+    
+                <input type="text" id="resultado" name="resultado"><br/>
+    
+                <br/>
+                <br/>    
+                <button id="reset" type="button">Restablecer</button>
+                
+            </fieldset>    
+        </form>
+    </main>
+    <script src="./build/calculadora.js"></script>
+</body>
+</html>
